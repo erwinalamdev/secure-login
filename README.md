@@ -100,8 +100,17 @@
    ```bash
    npm install
    ```
+3. **Environment Configuration**
+   ```bash
+   cp env.example .env
+   ```
+   
+   Edit `.env` file with your configuration:
+   ```env
+   NEXT_PUBLIC_API_URL=http://localhost:3001/api
+   ```
 
-3. **Start the development server**
+4. **Start the development server**
    ```bash
    npm run dev
    ```
